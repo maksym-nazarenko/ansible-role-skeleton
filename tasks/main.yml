@@ -1,6 +1,7 @@
 ---
 # tasks file for ansible-role-skeleton
 
-- include: vars.yml
+- name: Including vars
+  include: vars.yml
   tags:
     - always
